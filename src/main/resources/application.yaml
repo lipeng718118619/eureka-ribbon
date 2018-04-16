@@ -12,3 +12,9 @@ eureka:
 logging:
   config: classpath:logback-boot.xml
   file: ${spring.application.name}
+
+
+
+
+
+
