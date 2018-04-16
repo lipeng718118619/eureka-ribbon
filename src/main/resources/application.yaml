@@ -7,7 +7,7 @@ eureka:
   client:
     fetchRegistry: true
     service-url:
-       defaultZone: http://192.168.31.189:8000/eureka,http://192.168.31.189:9000/eureka
+       defaultZone: http://eureka-service1:8000/eureka,http://eureka-service2:9000/eureka
 
 logging:
   config: classpath:logback-boot.xml
